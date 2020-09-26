@@ -5,6 +5,6 @@ layout: layout
 {%- for post in collections.vocab -%}
   <details>
     <summary>{{ post.data.title }}</summary>
-    <div class="answer">{{post.content}}</div>
+    <div class="answer">{{post.templateContent}}</div>
   </details>
 {%- endfor -%}
